@@ -1,0 +1,595 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover delicious homemade cakes and sweet treats at CanCakes.">
+    <title>CanCakes | Sweet Cravings Anytime</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="cancakestyle.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="header">
+        <nav class="navbar container" aria-label="Main navigation">
+
+            <a href="#home" class="logo" aria-label="CanCakes home">
+                <img src="cancake.png" alt="CanCakes — Sweet Cravings Anytime">
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="navMenu"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-links">
+                    <li><a class="nav-link active" href="#home">Home</a></li>
+                    <li><a class="nav-link" href="#products">Our Products</a></li>
+                    <li><a class="nav-link" href="#about">About Us</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                    <li><a class="nav-link" href="#faqs">FAQs</a></li>
+                </ul>
+
+                <div class="nav-actions">
+                    <a href="#order" class="btn btn-primary nav-order">
+                        Order Now
+                        <span aria-hidden="true">↗</span>
+                    </a>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-container">
+                <div class="hero-content">
+
+                    <span class="eyebrow">
+                       DESSERTS / SPECIALITY DRINKS / COFFEE BEANS
+                    </span>
+
+                    <h1>
+                    <span>Your Cravings,</span>
+                    Our Speciality.
+                    </h1>
+
+                    <p class="hero-description">
+                       From delightful desserts to refreshing specialty drinks and aromatic coffee beans, discover little indulgences that make every moment sweeter.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#products" class="btn btn-primary">
+                            Explore Our Products
+                            <span aria-hidden="true">→</span>
+                        </a>
+
+                        <a href="#about" class="btn btn-outline">
+                            Our Story
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <a href="#cakes" class="scroll-indicator" aria-label="Scroll to our cakes">
+            </a>
+        </section>
+        
+<!-- OUR PRODUCTS SECTION -->
+<section class="products-section" id="products">
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="section-eyebrow">A LITTLE SOMETHING FOR EVERY CRAVING</span>
+            <h2>Discover Our <span>Products</span></h2>
+            <p>
+                From delightful desserts to specialty drinks and coffee beans,
+                find something to make your day a little sweeter.
+            </p>
+        </div>
+
+        <div class="products-grid">
+
+            <!-- Desserts -->
+            <a href="#desserts" class="product-card">
+                <div class="product-image desserts-image">
+                    <span class="product-number">01</span>
+                </div>
+                <div class="product-info">
+                    <span class="product-label">CAKE GOALS, UNCANNED.</span>
+                    <h3>Desserts</h3>
+                    <p>From cloud like Japanese Cheesecake to rich Tiramisu and silky Caramel Flan, our Can Cakes are ready to sweeten your day - one spoonful at the time.</p>
+                    <span class="product-link">
+                        Explore Desserts <span aria-hidden="true">→</span>
+                    </span>
+                </div>
+            </a>
+
+            <!-- Speciality Drinks -->
+            <a href="#speciality-drinks" class="product-card">
+                <div class="product-image drinks-image">
+                    <span class="product-number">02</span>
+                </div>
+                <div class="product-info">
+                    <span class="product-label">SIP SOMETHING SWEET!</span>
+                    <h3>Speciality Drinks</h3>
+                    <p>Dive into the bold buzz of our Vietnamese Coffee or treat yourself to the dreamy, creamy swirl of our Taro Latte - Perfect partners for your favorite Can Cakes.</p>
+                    <span class="product-link">
+                        Explore Drinks <span aria-hidden="true">→</span>
+                    </span>
+                </div>
+            </a>
+
+            <!-- Coffee Beans -->
+            <a href="#coffee-beans" class="product-card">
+                <div class="product-image beans-image">
+                    <span class="product-number">03</span>
+                </div>
+                <div class="product-info">
+                    <span class="product-label">BEANS THAT BREAK THE RULES.</span>
+                    <h3>Coffee Beans</h3>
+                    <p>Bold, rare, and ridiculosly good - our specialty beans are crafted for those who know a great brew starts with something extraordinary. </p>
+                    <span class="product-link">
+                        Explore Coffee <span aria-hidden="true">→</span>
+                    </span>
+                </div>
+            </a>
+
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT US SECTION -->
+<section class="about-section" id="about">
+    <div class="container about-container">
+
+        <!-- Image Side -->
+        <div class="about-visual">
+            <div class="about-image">
+                <img
+                    src="https://images.openai.com/static-rsc-4/8KpGMUYPv7nC-7HMdSaZo5wcwlsQcUN_RwfM3BN4-aW1Rf7wsdIitVwwjCCyDYvaY0ry8VHUP7yQIjafzSL6itERj9fYLBK3dB16VXbqJkpbrWvdmfbOHxvCih-IHzF4hAOYu899WpR_ONFvWqStZCWfNQTlpd4sEtx7HYdFuC5cQE932cmH9HTOPqfXO4TJ?purpose=fullsize"
+                    alt="A cozy CanCakes-inspired dessert and coffee setting"
+                    loading="lazy"
+                >
+            </div>
+
+            <div class="about-note">
+                <span class="note-heart">♥</span>
+                <p>Made for your<br><strong>little happy moments.</strong></p>
+            </div>
+
+            <div class="about-decoration about-decoration-one"></div>
+            <div class="about-decoration about-decoration-two"></div>
+        </div>
+
+        <!-- Content Side -->
+        <div class="about-content">
+            <span class="about-eyebrow">
+                <span class="eyebrow-line"></span>
+                THE STORY BEHIND THE SWEETNESS
+            </span>
+
+            <h2>
+                A Little Sweetness,
+                <span>Made for You.</span>
+            </h2>
+
+            <p>
+                At CanCakes, we believe life's little moments deserve
+                something special. From delightful desserts to refreshing
+                specialty drinks and aromatic coffee beans, every craving
+                is an opportunity to enjoy something wonderful.
+            </p>
+
+            <p>
+                Whether you're sharing a sweet treat with friends,
+                finding your perfect drink, or enjoying a comforting cup
+                of coffee, we're here to make those everyday moments
+                a little more memorable.
+            </p>
+
+            <a href="#products" class="btn btn-primary about-button">
+                Discover CanCakes
+                <span aria-hidden="true">→</span>
+            </a>
+
+            <div class="about-signature">
+                Because every good day deserves a little treat.
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="contact-section" id="contact">
+    <div class="container contact-container">
+
+        <!-- Contact Intro -->
+        <div class="contact-intro">
+            <span class="contact-eyebrow">
+                LET'S MAKE IT A LITTLE SWEETER
+            </span>
+
+            <h2>
+                Have a craving
+                <span>or a question?</span>
+            </h2>
+
+            <p class="contact-description">
+                We're all ears! Whether you have a question about our
+                products or simply want to say hello, we'd love to hear
+                from you.
+            </p>
+
+            <div class="contact-details">
+                <a href="mailto:hello@cancakes.com" class="contact-detail">
+                    <span class="contact-icon">@</span>
+                    <span>
+                        <small>DROP US AN EMAIL</small>
+                        <strong>hello@cancakes.com</strong>
+                    </span>
+                </a>
+
+                <a href="#contact" class="contact-detail">
+                    <span class="contact-icon">↗</span>
+                    <span>
+                        <small>FOLLOW OUR SWEET JOURNEY</small>
+                        <strong>Find us on social media</strong>
+                    </span>
+                </a>
+            </div>
+
+            <div class="contact-bottom-note">
+                <span class="contact-heart">♥</span>
+                Good things start with a little hello.
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrap">
+            <div class="form-heading">
+                <span class="form-step">YOUR MESSAGE, OUR ATTENTION</span>
+                <h3>Write us a little note.</h3>
+                <p>Fill in the details below and let's get talking.</p>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="contactName">Your name</label>
+                        <input
+                            type="text"
+                            id="contactName"
+                            name="name"
+                            placeholder="e.g. Jamie Santos"
+                            autocomplete="name"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactEmail">Email address</label>
+                        <input
+                            type="email"
+                            id="contactEmail"
+                            name="email"
+                            placeholder="you@example.com"
+                            autocomplete="email"
+                            required
+                        >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="contactSubject">What's on your mind?</label>
+                    <select id="contactSubject" name="subject" required>
+                        <option value="" disabled selected>
+                            Choose a topic
+                        </option>
+                        <option value="Desserts">Desserts</option>
+                        <option value="Speciality Drinks">Speciality Drinks</option>
+                        <option value="Coffee Beans">Coffee Beans</option>
+                        <option value="Order Inquiry">Order Inquiry</option>
+                        <option value="General Inquiry">Something else</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="contactMessage">Your message</label>
+                    <textarea
+                        id="contactMessage"
+                        name="message"
+                        rows="4"
+                        placeholder="Tell us what's on your mind..."
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="contact-submit">
+                    Send Your Message
+                    <span aria-hidden="true">↗</span>
+                </button>
+
+                <p class="form-note">
+                    <span aria-hidden="true">♥</span>
+                    Every message is a little moment we appreciate.
+                </p>
+
+                <p class="form-status" id="formStatus" role="status"
+                   aria-live="polite"></p>
+
+            </form>
+        </div>
+
+    </div>
+</section>
+
+<!-- FAQs Section -->
+<section class="faq-section" id="faqs">
+    <div class="container faq-container">
+
+        <!-- Section Heading -->
+        <div class="faq-header">
+            <span class="faq-eyebrow">A LITTLE HELP, A LITTLE SWEETNESS</span>
+
+            <h2>Frequently Asked <span>Questions</span></h2>
+
+            <p>
+                Curious about something? We've gathered a few answers
+                to help make your CanCakes experience sweeter.
+            </p>
+        </div>
+
+        <!-- FAQ Content -->
+        <div class="faq-content">
+
+            <!-- FAQ Item 1 -->
+            <div class="faq-item active">
+                <button class="faq-question"
+                        type="button"
+                        aria-expanded="true">
+                    <span>What products does CanCakes offer?</span>
+                    <span class="faq-icon" aria-hidden="true">
+                        <i class="bx bx-minus">-</i>
+                    </span>
+                </button>
+
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">
+                        <p>
+                            CanCakes offers a delightful selection of desserts,
+                            speciality drinks, and coffee beans to satisfy your
+                            cravings and make everyday moments more special.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Item 2 -->
+            <div class="faq-item">
+                <button class="faq-question"
+                        type="button"
+                        aria-expanded="false">
+                    <span>How can I place an order?</span>
+                    <span class="faq-icon" aria-hidden="true">
+                        <i class="bx bx-plus">+</i>
+                    </span>
+                </button>
+
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">
+                        <p>
+                            You can reach out to us through our available
+                            contact channels to inquire about our products
+                            and ordering process. We'll be happy to assist you!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Item 3 -->
+            <div class="faq-item">
+                <button class="faq-question"
+                        type="button"
+                        aria-expanded="false">
+                    <span>Do you accept customized cake orders?</span>
+                    <span class="faq-icon" aria-hidden="true">
+                        <i class="bx bx-plus">+</i>
+                    </span>
+                </button>
+
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">
+                        <p>
+                            Have something special in mind? Please contact us
+                            to ask about customization options and availability.
+                            We'll help you explore the possibilities.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Item 4 -->
+            <div class="faq-item">
+                <button class="faq-question"
+                        type="button"
+                        aria-expanded="false">
+                    <span>What payment methods do you accept?</span>
+                    <span class="faq-icon" aria-hidden="true">
+                        <i class="bx bx-plus">+</i>
+                    </span>
+                </button>
+
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">
+                        <p>
+                            Please contact our team to confirm the payment
+                            methods currently available for your order.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Item 5 -->
+            <div class="faq-item">
+                <button class="faq-question"
+                        type="button"
+                        aria-expanded="false">
+                    <span>Do you offer delivery or pickup?</span>
+                    <span class="faq-icon" aria-hidden="true">
+                        <i class="bx bx-plus">+</i>
+                    </span>
+                </button>
+
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">
+                        <p>
+                            Delivery and pickup options may depend on your
+                            location and the order. Please get in touch with
+                            us to confirm the available arrangements.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Item 6 -->
+            <div class="faq-item">
+                <button class="faq-question"
+                        type="button"
+                        aria-expanded="false">
+                    <span>How should I store my desserts?</span>
+                    <span class="faq-icon" aria-hidden="true">
+                        <i class="bx bx-plus">+</i>
+                    </span>
+                </button>
+
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">
+                        <p>
+                            Storage instructions vary depending on the dessert.
+                            Check the product's packaging for specific guidance.
+                            When in doubt, ask us about the best way to keep
+                            your treat fresh.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- FAQ Footer Note -->
+        <div class="faq-contact-note">
+      <span class="faq-note-icon" aria-hidden="true">♥</span>
+
+            <p>
+                Still have questions?
+                <a href="#contact">We'd love to hear from you.</a>
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="container footer-container">
+
+        <!-- Footer Main -->
+        <div class="footer-main">
+
+            <!-- Brand -->
+            <div class="footer-brand">
+                <a href="#home" class="footer-logo">
+                    <img src="cancake.png"
+                         alt="CanCakes logo">
+                </a>
+
+                <p class="footer-description">
+                    From delightful desserts to specialty drinks and coffee
+                    beans, we're here to make your everyday moments a little
+                    sweeter.
+                </p>
+
+                <p class="footer-tagline">
+                    Made with love, served with sweetness. ♡
+                </p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h3>Explore</h3>
+                <a href="#home">Home</a>
+                <a href="#products">Our Products</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact</a>
+                <a href="#faqs">FAQs</a>
+            </div>
+
+            <!-- Product Links -->
+            <div class="footer-links">
+                <h3>Our Offerings</h3>
+                <a href="#desserts">Desserts</a>
+                <a href="#speciality-drinks">Speciality Drinks</a>
+                <a href="#coffee-beans">Coffee Beans</a>
+            </div>
+
+            <!-- Contact -->
+            <div class="footer-contact">
+                <h3>Say Hello</h3>
+                <p>Have a question or a sweet idea?</p>
+                <a href="#contact" class="footer-contact-link">
+                    Get in touch <span aria-hidden="true">↗</span>
+                </a>
+
+                <div class="footer-socials">
+                    <!-- Replace # with actual social media URLs -->
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Instagram">ig</a>
+                    <a href="#" aria-label="TikTok">♪</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <p>
+                &copy; <span id="currentYear">2026</span> CanCakes.
+                All rights reserved.
+            </p>
+
+            <a href="#home" class="back-to-top">
+                Back to top <span aria-hidden="true">↑</span>
+            </a>
+        </div>
+
+    </div>
+</footer>
+   </main>
+
+    <script src="cancake.js"></script>
+</body>
+</html>
